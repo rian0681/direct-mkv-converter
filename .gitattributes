@@ -1,0 +1,17 @@
+# Normalize line endings
+go.sum linguist-generated
+
+**/*.py linguist-detectable
+node_modules/* linguist-vendored
+*.bat text eol=crlf
+*.woff2 binary
+*.py linguist-detectable
+
+*.html linguist-vendored
+Cargo.lock linguist-generated
+
+public/** linguist-vendored
+
+*.sh text eol=lf
+vendor/* linguist-vendored
+# eof 5934edeb
